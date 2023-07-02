@@ -12,11 +12,13 @@ function setTheme(darkMode) {
     body.classList.add("active");
     header.classList.add("light-mode");
     darkModeButton.classList.add("light-mode");
+    toggle.classList.add('light-mode')
   } else {
     toggleName.textContent = "Dark Mode";
     body.classList.remove("active");
     header.classList.remove("light-mode");
     darkModeButton.classList.remove("light-mode");
+    toggle.classList.remove('light-mode')
   }
 }
 
